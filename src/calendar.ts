@@ -8,6 +8,9 @@ export interface IEvent {
     endTime: Date;
     startTime: Date;
     title: string;
+    tipo_servicio: string;
+    guia: string;
+    chofer: string;
 }
 
 export interface IRange {
