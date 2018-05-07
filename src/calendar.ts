@@ -143,6 +143,9 @@ export enum Step {
                         </span>
                     <span *ngIf="event.allDay" class="monthview-eventdetail-timecolumn">{{allDayLabel}}</span>
                     <span class="event-detail">  |  {{event.title}}</span>
+                    <div>Tipo: {{event.tipo_servicio}}</div>
+                    <div>Guia: {{event.guia}}</div>
+                    <div>Chofer: {{event.chofer}}</div>
                 </ion-item>
                 <ion-item *ngIf="selectedDate?.events.length==0">
                     <div class="no-events-label">{{noEventsLabel}}</div>
